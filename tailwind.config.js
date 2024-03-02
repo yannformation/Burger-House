@@ -140,8 +140,11 @@ module.exports = {
       transparent: colors.transparent,
 
       'primary': '#ffc045',
+      'primary-hover': '#f5b029',
       'secondary': '#3d2514',
+      'secondary-hover': '#213105',
       'red-primary': '#bf2222',
+      'red-primary-hover': '#990e0e',
 
       black: colors.black,
       white: colors.white,
