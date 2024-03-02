@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -137,6 +138,11 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
+
+      'primary': '#ffc045',
+      'secondary': '#3d2514',
+      'red-primary': '#bf2222',
+
       black: colors.black,
       white: colors.white,
       slate: colors.slate,
