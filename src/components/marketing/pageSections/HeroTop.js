@@ -1,5 +1,5 @@
 import React from "react";
-import illustration from "../../../medias/images/background/bg-food.jpg";
+import Illustration from "../../../medias/images/background/bg-food.jpg";
 import Product from "../../../medias/images/heroTop/burger-hero-top.png";
 import Container from "../../elements/Container";
 import Header from "./Header";
@@ -10,7 +10,7 @@ export default function HeroTop() {
     <div className="bg-primary w-full">
       <div
         className="bg-repeat w-full h-full pb-40"
-        style={{ backgroundImage: `url(${illustration})` }}
+        style={{ backgroundImage: `url(${Illustration})` }}
       >
         <Container>
           <Header />
@@ -21,15 +21,16 @@ export default function HeroTop() {
               className=" z-0 absolute -top-64 right-0 w-6/12"
             />
             <div className="absolute right-80 top-40 bg-red-primary w-40 h-40 rounded-full p-3">
-                <div className="w-full h-full rounded-full border-2 border-dashed border-white text-white flex items-center justify-center">
-                    <div className="text-center">
-                        <span className="block font-extrabold">
-                        <span className="text-5xl">5</span>.49€
-                        </span>
-                        <span className="tracking-widest uppercase text-sm">seulement</span>
-                    </div>
+              <div className="w-full h-full rounded-full border-2 border-dashed border-white text-white flex items-center justify-center">
+                <div className="text-center">
+                  <span className="block font-extrabold">
+                    <span className="text-5xl">5</span>.49€
+                  </span>
+                  <span className="tracking-widest uppercase text-sm">
+                    seulement
+                  </span>
                 </div>
-
+              </div>
             </div>
 
             <div className="relative z-10 text-secondary uppercase">
@@ -50,7 +51,6 @@ export default function HeroTop() {
           <Button className="mt-5" color="secondary" theme="big">
             Créer mon compte
           </Button>
-         
         </Container>
       </div>
     </div>
