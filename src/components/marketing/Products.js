@@ -8,15 +8,12 @@ import Product1 from '../../../src/medias/images/products/Product-1.jpg';
 import Product2 from '../../../src/medias/images/products/Product-2.jpg';
 import Product3 from '../../../src/medias/images/products/Product-3.jpg';
 
-
-
-
 export default function Products() {
   return (
     <Container>
       <HeadingTitles>Toujours des délicieux burgers</HeadingTitles>
 
-      <Heading theme="secondary">Choisissez et savourez</Heading>
+      <Heading theme="secondary" alignement="center" className="my-5">Choisissez et savourez</Heading>
 
       <p className="text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
@@ -32,7 +29,7 @@ export default function Products() {
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+            <Heading variant="h3" className="my-5">Lorem ipsum dolor</Heading>
             <p className="text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
@@ -48,7 +45,7 @@ export default function Products() {
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+            <Heading variant="h3" className="my-5">Lorem ipsum dolor</Heading>
             <p className="text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
@@ -64,7 +61,7 @@ export default function Products() {
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+            <Heading variant="h3" className="my-5">Lorem ipsum dolor</Heading>
             <p className="text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
