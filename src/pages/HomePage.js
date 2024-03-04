@@ -3,6 +3,7 @@ import HeroTop from '../components/marketing/pageSections/HeroTop'
 import LastProducts from '../components/marketing/LastProducts'
 import Products from '../components/marketing/Products'
 import Event from '../components/marketing/pageSections/Event'
+import Booking from '../components/marketing/pageSections/Booking'
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <LastProducts />
         <Products />
         <Event />
+        <Booking />
     </>
   )
 }
