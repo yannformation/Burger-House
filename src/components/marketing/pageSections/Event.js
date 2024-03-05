@@ -10,17 +10,17 @@ import Heading from "../../elements/displayTitles/Heading";
 
 const Slide = ({ children, category, title, image, alt }) => {
   return (
-    <div className="grid grid-cols-2 p-6">
-      <div className="p-10 mb-10">
+    <div className="grid md:grid-cols-2  p-3 md:p-6">
+      <div className="p-5 md:p-10 md:mb-10">
         <Heading variant="h4">{category}</Heading>
         <Heading theme="secondary" variant="h3" className="mb-5">
           {title}
         </Heading>
-        <p className="tracking-wide text-lg  font-light text-gray-800">
+        <p className="tracking-wide text-lg  font-light text-gray-800 mb-0 md:mb-10">
           {children}
         </p>
       </div>
-      <div className="relative h-full w-full">
+      <div className="relative h-96 md:h-full w-full">
         <img
           src={image}
           alt={alt}
@@ -69,7 +69,7 @@ export default function Event() {
 
   return (
     <Container>
-      <div className="shadow-2xl mb-20">
+      <div className="shadow-2xl mb-20 border border-gray-200">
         <AliceCarousel
           autoPlay
           infinite

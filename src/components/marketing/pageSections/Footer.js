@@ -11,14 +11,14 @@ import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 export default function Footer() {
   return (
     <Container>
-      <div className="relative mb-20 p-5 text-white ">
+      <div className="relative lg:mb-20 p-5 text-white ">
         <img
           src={backgroundImage}
           alt="Un plan de travail de cuisine où l'on conçoit un hamburger"
           className="bg-black absolute top-0 left-0 w-full h-full object-cover z-0"
         />
-        <div className="grid grid-cols-2 z-10 relative">
-          <div className="w-full p-5 mt-20 mb-28">
+        <div className="grid md:grid-cols-2 z-10 relative">
+          <div className="w-full p-5 md:mt-20 mt-10 md:mb-28">
             <img src={Logo} alt="Le logo Burgerhouse" className="w-2/3" />
             <p className="mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
@@ -27,25 +27,25 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="h-full w-full flex flex-col items-center justify-center">
+          <div className="md:h-full w-full flex flex-col items-start md:items-center justify-center mb-20 md:mb-0 p-5 md:p-0">
             <div className="flex items-center">
-              <MapPinIcon className="h-10 w-10 mr-5" />
+              <MapPinIcon className="h-6 w-6 md:h-10 md:w-10 mr-5" />
 
-              <span className="uppercase font-extrabold text-lg tracking-tighter">
+              <span className="uppercase font-semibold text-sm md:text-lg tracking-tighter">
                 15 Place Bellecour, 69000 Lyon
               </span>
             </div>
             <div className="flex items-center mt-5">
-              <EnvelopeIcon className="h-10 w-10 mr-5" />
-              <span className="uppercase font-extrabold text-lg tracking-tighter">
+              <EnvelopeIcon className="h-6 w-6 md:h-10 md:w-10 mr-5" />
+              <span className="uppercase font-semibold text-sm md:text-lg tracking-tighter">
                 info@burger-house.com
               </span>
             </div>
           </div>
         </div>
 
-        <div className="z-10 relative flex items-center justify-between">
-           <div className="uppercase font-extrabold tracking-tighter text-sm">
+        <div className="z-10 relative md:flex items-center justify-between">
+           <div className="uppercase font-semibold tracking-tighter text-sm mb-5 md:mb-0">
            © burger house 2024. All rights reserved
            </div>
            <div className="flex ">

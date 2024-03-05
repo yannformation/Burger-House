@@ -13,7 +13,7 @@ export default function Products() {
     <Container>
       <HeadingTitles>Toujours des délicieux burgers</HeadingTitles>
 
-      <Heading theme="secondary" alignement="center" className="my-5">Choisissez et savourez</Heading>
+      <Heading theme="secondary" alignement="center" className="my-5 text-center">Choisissez et savourez</Heading>
 
       <p className="text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
@@ -21,11 +21,11 @@ export default function Products() {
         tincidunt. Aliquam eu cursus velit. Proin eu pretium tortor, sit amet.
       </p>
 
-      <div className="grid grid-cols-3 gap-x-1 mb-20 mt-10">
+      <div className="grid lg:grid-cols-3 gap-x-1 mb-20 mt-10">
 
-        <div className="w-full h-full">
+        <div className="w-full md:w-2/3 lg:w-full h-full mx-auto">
           <div className="relative w-full h-72">
-            <img src={Product1} alt="Un hamburger" className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0" />
+            <img src={Product1} alt="Un hamburger" className="bg-primary absolute top-0 left-0  w-full h-full object-cover z-0" />
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
@@ -34,14 +34,14 @@ export default function Products() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
             </p>
-            <Button color="danger" className="font-secondary">
+            <Button color="danger" className="font-secondary mb-10 lg:mb-0">
               Commandez
             </Button>
           </div>
         </div>
-        <div className="w-full h-full">
+        <div className="w-full md:w-2/3 lg:w-full h-full mx-auto">
           <div className="relative w-full h-72">
-            <img src={Product2} alt="Un hamburger" className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0" />
+            <img src={Product2} alt="Un hamburger" className="bg-primary absolute top-0 left-0  w-full h-full object-cover z-0" />
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
@@ -50,14 +50,14 @@ export default function Products() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
             </p>
-            <Button color="danger" className="font-secondary">
+            <Button color="danger" className="font-secondary mb-10 lg:mb-0">
               Commandez
             </Button>
           </div>
         </div>
-        <div className="w-full h-full">
+        <div className="w-full md:w-2/3 lg:w-full h-full mx-auto">
           <div className="relative w-full h-72">
-            <img src={Product3} alt="Un hamburger" className="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0" />
+            <img src={Product3} alt="Un hamburger" className="bg-primary absolute top-0 left-0  w-full h-full object-cover z-0" />
           </div>
 
           <div className="flex flex-col items-center justify-center px-5 pb-5">
@@ -66,7 +66,7 @@ export default function Products() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               ac
             </p>
-            <Button color="danger" className="font-secondary">
+            <Button color="danger" className="font-secondary lg:mb-0">
               Commandez
             </Button>
           </div>
