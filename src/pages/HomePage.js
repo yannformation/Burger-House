@@ -4,6 +4,7 @@ import LastProducts from '../components/marketing/LastProducts'
 import Products from '../components/marketing/Products'
 import Event from '../components/marketing/pageSections/Event'
 import Booking from '../components/marketing/pageSections/Booking'
+import Footer from '../components/marketing/pageSections/Footer'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
         <Products />
         <Event />
         <Booking />
+        <Footer />
     </>
   )
 }
